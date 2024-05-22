@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			    window.location.href = 'index5.html';
 			  }
 			});
-		} else if(inputCek.value == 'tirtayasa') {
+		} else if(inputCek.value.toLowerCase() == 'tirtayasa') {
 			Swal.fire({
 			  title: "Yey, ayang inget",
 			  icon: "success",
